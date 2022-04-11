@@ -75,8 +75,8 @@ void loop() {
 void move()
 {
   // Hug
-  moveSteps(true, 32 * 32, 3);
-  moveSteps(false, 32 * 32, 3);
+  moveSteps(true, 32 * 20, 3);
+  moveSteps(false, 32 * 20, 3);
   delay(1000);
   int startVal = 0;
   int endVal = 10;
